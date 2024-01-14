@@ -2,7 +2,7 @@
   <div style="display: flex; height: 100%; flex-direction: column">
     <nav class="download-bar">
       <a
-        href="/files/don_chia_resume.pdf"
+        href="/files/Resume_Phakphum.pdf"
         class="download"
         style="z-index: 10"
         download
@@ -15,7 +15,7 @@
       </a>
 
       <a
-        href="/files/don_chia_resume.pdf"
+        href="/files/Resume_Phakphum.pdf"
         class="download"
         style="z-index: 10"
         target="_blank"
