@@ -75,7 +75,8 @@
         👋 Hi! My name is Phakphum Artkaew, but you can call me Pluem, which is my Thai nickname. Sometimes, I also go by Peter for simplicity. Currently, I am pursuing a master's degree in Computer Engineering at New York University Tandon.
       </p>
       <p class="paragraph">
-      I developed a fascination for the field of computer science during my high school years in Thailand. This interest was sparked by the thrill of translating my thoughts into code and eagerly anticipating the outcomes. My initial encounter with C++ programming in the 9th grade played a pivotal role in shaping this passion.
+      I developed a fascination for the field of computer science during my high school years in Thailand. This interest was sparked by the thrill of translating my thoughts into code and eagerly anticipating the outcomes. My initial encounter with C++ programming in the 9th grade played a pivotal role in shaping this passion. 
+      Eager to deepen my understanding, I participated in the 13th Thailand Olympiad in Informatics. My journey continued as I competed in a national exam, which led to earning a scholarship from Thailand's Ministry of Higher Education. This opportunity enabled me to further my studies in computer science in the United States.
       </p>
     </div>
     <div class="inner-content">
