@@ -19,6 +19,12 @@
           <u>G</u>itHub
         </div>
       </a>
+      <a href="https://www.buymeacoffee.com/phakphum" target="_blank">
+        <div class="bar">
+        <img class="social-image" src="@/assets/Icons/buymeacoffee.png"/>
+        <u>B</u>uymeacoffee
+        </div>
+      </a>
       <div class="divider"></div>
       <a href="/files/Resume_Phakphum.pdf" target="_blank">
         <div class="bar">

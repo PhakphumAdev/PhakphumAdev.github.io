@@ -72,7 +72,10 @@
     <div class="inner-content">
       <h3 class="heading"><b>About Me</b></h3>
       <p class="paragraph">
-        👋 Hi! Hello there! I'm Phakphum Artkaew, and you've just landed on my personal resume website, currently a work in progress 🚧. Exciting updates and insights into my journey in software engineering and computer science are on the way. Stick around for more!
+        👋 Hi! My name is Phakphum Artkaew, but you can call me Pluem, which is my Thai nickname. Sometimes, I also go by Peter for simplicity. Currently, I am pursuing a master's degree in Computer Engineering at New York University Tandon.
+      </p>
+      <p class="paragraph">
+      I developed a fascination for the field of computer science during my high school years in Thailand. This interest was sparked by the thrill of translating my thoughts into code and eagerly anticipating the outcomes. My initial encounter with C++ programming in the 9th grade played a pivotal role in shaping this passion.
       </p>
     </div>
     <div class="inner-content">
