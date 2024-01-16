@@ -78,6 +78,12 @@
       I developed a fascination for the field of computer science during my high school years in Thailand. This interest was sparked by the thrill of translating my thoughts into code and eagerly anticipating the outcomes. My initial encounter with C++ programming in the 9th grade played a pivotal role in shaping this passion. 
       Eager to deepen my understanding, I participated in the 13th Thailand Olympiad in Informatics. My journey continued as I competed in a national exam, which led to earning a scholarship from Thailand's Ministry of Higher Education. This opportunity enabled me to further my studies in computer science in the United States.
       </p>
+      <p class="paragraph">
+      My primary focus in the U.S. is to deepen my understanding of computer science, particularly in the field of natural language processing, which captivates me the most. I am committed to making the most of this opportunity to expand my knowledge and skills.
+      </p>
+      <p class="paragraph">
+      Upon completing my studies, I plan to return to Thailand. With the experience and insights gained abroad, I aim to contribute to the education of the younger generation in my home country. By sharing my journey and expertise, I hope to inspire and guide future talents in the field of computer science.
+      </p>
     </div>
     <div class="inner-content">
       <h3 class="heading"><b>Résumé</b></h3>
