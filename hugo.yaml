@@ -1,6 +1,6 @@
 baseURL: https://phakphumadev.github.io/
 languageCode: en-us
-title: Phakphum Artkaew
+title: Phakphum Artkaew | ภาคภูมิ อาจแก้ว
 theme: ["PaperMod"]
 
 params:
@@ -13,7 +13,8 @@ params:
       url: "https://github.com/PhakphumAdev"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/phakphum-artkaew/"
-
+    - name: "email"
+      url: "mailto:pa2497@nyu.edu"
   defaultTheme: auto
 
 markup:
