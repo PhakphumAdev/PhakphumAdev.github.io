@@ -1,4 +1,22 @@
-baseURL: https://example.org/
+baseURL: https://phakphumadev.github.io/
 languageCode: en-us
-title: My New Hugo Site
+title: Phakphum Artkaew
 theme: ["PaperMod"]
+
+params:
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: I’m Phakphum Artkaew, a master’s student majoring in Computer Engineering at New York University Tandon School of Engineering. My Thai nickname is Pluem, but I sometimes go by Peter for simplicity.<br> Prior to joining NYU, I earned my bachelor's degree in computer science from Pennsylvania State University, where I was advised by [Kenneth Huang](https://ist.psu.edu/directory/txh710) as part of the [Crowd-AI lab](https://crowd.ist.psu.edu).
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/PhakphumAdev"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/phakphum-artkaew/"
+
+  defaultTheme: auto
+
+markup:
+  goldmark:
+   renderer:
+     unsafe: true
