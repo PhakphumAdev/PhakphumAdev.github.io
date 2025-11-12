@@ -14,7 +14,7 @@ params:
     - name: "linkedin"
       url: "https://www.linkedin.com/in/phakphum-artkaew/"
     - name: "email"
-      url: "mailto:pa2497@nyu.edu"
+      url: "mailto:partkaew@iu.edu"
     - name: "googlescholar"
       url: "https://scholar.google.com/citations?hl=en&user=FzH-AoAAAAAJ"
   defaultTheme: auto

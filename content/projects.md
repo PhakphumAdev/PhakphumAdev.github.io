@@ -14,6 +14,9 @@ An interactive web-based quiz application that helps students learn Internationa
 - Score tracking and progress monitoring
 - Responsive design for desktop and mobile
 
+**Tech Stack:** Vanilla JavaScript, HTML5 Audio API
+**Development:** Built with assistance from Claude AI
+
 [Try the IPA Quiz →](/projects/ipa-quiz/)
 
 ---
