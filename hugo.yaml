@@ -19,6 +19,13 @@ params:
       url: "https://scholar.google.com/citations?hl=en&user=FzH-AoAAAAAJ"
   defaultTheme: auto
 
+menu:
+  main:
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 10
+
 markup:
   goldmark:
    renderer:

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPA Quiz - Learn Phonetic Symbols</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>IPA Symbol Quiz</h1>
+            <p class="subtitle" id="subtitle">Listen and identify the correct IPA symbol</p>
+        </header>
+
+        <div class="quiz-container">
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-label">Score:</span>
+                    <span class="stat-value" id="score">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Question:</span>
+                    <span class="stat-value"><span id="current-question">1</span>/<span id="total-questions">10</span></span>
+                </div>
+            </div>
+
+            <div id="quiz-content" class="quiz-content">
+                <div class="audio-section">
+                    <button id="play-button" class="play-button">
+                        <svg width="50" height="50" viewBox="0 0 50 50">
+                            <polygon points="15,10 15,40 35,25" fill="white"/>
+                        </svg>
+                        <span>Play Sound</span>
+                    </button>
+                    <p class="instruction">Click to hear the IPA sound</p>
+                </div>
+
+                <div class="options-container" id="options-container">
+                    <!-- Options will be dynamically inserted here -->
+                </div>
+
+                <div id="feedback" class="feedback hidden">
+                    <p id="feedback-text"></p>
+                    <button id="next-button" class="next-button">Next Question</button>
+                </div>
+            </div>
+
+            <div id="results" class="results hidden">
+                <h2>Quiz Complete!</h2>
+                <p class="final-score">Your Score: <span id="final-score">0</span>/<span id="final-total">10</span></p>
+                <p class="percentage" id="percentage">0%</p>
+                <button id="restart-button" class="restart-button">Start New Quiz</button>
+            </div>
+        </div>
+
+        <footer>
+            <div class="settings">
+                <label for="mode-select">Mode:</label>
+                <select id="mode-select">
+                    <option value="symbol">Symbol Recognition</option>
+                    <option value="features">Feature Analysis</option>
+                    <option value="complete">Complete Analysis</option>
+                </select>
+
+                <label for="category-select">Category:</label>
+                <select id="category-select">
+                    <option value="all">All Symbols</option>
+                    <option value="vowels">Vowels</option>
+                    <option value="consonants">Consonants</option>
+                </select>
+            </div>
+        </footer>
+    </div>
+
+    <audio id="audio-player"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
