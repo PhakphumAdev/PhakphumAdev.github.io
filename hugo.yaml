@@ -7,11 +7,11 @@ params:
   profileMode:
     enabled: true
     title: "Hi there 👋"
-    subtitle: "I’m Phakphum Artkaew, a first-year Ph.D. student in Computational Linguistics at Indiana University Bloomington, where I am fortunate to work with Luke Gessler. My research focuses on improving language models for low-resource languages by integrating insights from linguistics and cognitive science, with the broader goal of narrowing the gap between modern NLP systems and human language understanding.
+    subtitle: "I'm Phakphum Artkaew, a first-year Ph.D. student in Computational Linguistics at Indiana University Bloomington, where I am fortunate to work with [Luke Gessler](https://lgessler.com). My research focuses on improving language models for low-resource languages by integrating insights from linguistics and cognitive science, with the broader goal of narrowing the gap between modern NLP systems and human language understanding.
 
-Before starting my Ph.D., I earned my M.S. in Computer Engineering at NYU Tandon, where I completed a thesis co-advised by Ernest Davis and Chinmay Hegde. I also hold a B.S. in Computer Science from Penn State, where I conducted my senior thesis work in the Crowd-AI Lab under the supervision of Kenneth Huang.
+Before starting my Ph.D., I earned my M.S. in Computer Engineering at NYU Tandon, where I completed a thesis co-advised by [Ernest Davis](https://cs.nyu.edu/~davise) and [Chinmay Hegde](https://chinmayhegde.github.io). I also hold a B.S. in Computer Science from Penn State, where I conducted my senior thesis work in the Crowd-AI Lab under the supervision of [Kenneth Huang](https://crowd.ist.psu.edu).
 
-Outside of research, I enjoy video games, movies, and exploring new places. I’m always happy to connect—whether you have questions about my work or just want to chat.
+Outside of research, I enjoy video games, movies, and exploring new places. I'm always happy to connect—whether you have questions about my work or just want to chat.
 "
     imageUrl: "images/profile.jpg"
     imageWidth: 180
