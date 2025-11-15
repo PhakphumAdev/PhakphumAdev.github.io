@@ -4,9 +4,21 @@ title: Phakphum Artkaew | ภาคภูมิ อาจแก้ว
 theme: ["PaperMod"]
 
 params:
+  profileMode:
+    enabled: true
+    title: "Phakphum Artkaew"
+    subtitle: "PhD Student in Computational Linguistics"
+    imageUrl: "images/profile.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Phakphum Artkaew"
+    buttons:
+      - name: Projects
+        url: /projects/
+
   homeInfoParams:
     Title: Hi there 👋
-    Content: I’m Phakphum Artkaew, a PhD student majoring in computational linguistics at Indiana University Bloomington. My Thai nickname is Pluem, but I sometimes go by Peter for simplicity.<br>My research interests lie broadly in interpretability and analysis of models for NLP, psycholinguistics, machine translation and multilinguality, NLP applications, and machine learning for NLP. Specifically, I focus on cross-linguality and commonsense reasoning, with an emphasis on developing models that can understand and generate text in multiple languages.<br>When I am not working, I enjoy playing video games, watching movies, and exploring new places. Feel free to reach out to me if you have any questions or just want to chat!
+    Content: I'm Phakphum Artkaew, a PhD student majoring in computational linguistics at Indiana University Bloomington. My Thai nickname is Pluem, but I sometimes go by Peter for simplicity.<br>My research interests lie broadly in interpretability and analysis of models for NLP, psycholinguistics, machine translation and multilinguality, NLP applications, and machine learning for NLP. Specifically, I focus on cross-linguality and commonsense reasoning, with an emphasis on developing models that can understand and generate text in multiple languages.<br>When I am not working, I enjoy playing video games, watching movies, and exploring new places. Feel free to reach out to me if you have any questions or just want to chat!
 
   socialIcons: # optional
     - name: "github"

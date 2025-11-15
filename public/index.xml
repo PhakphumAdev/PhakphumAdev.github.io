@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Phakphum Artkaew | ภาคภูมิ อาจแก้ว</title>
-    <link>https://phakphumadev.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Phakphum Artkaew | ภาคภูมิ อาจแก้ว</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://phakphumadev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
-      <link>https://phakphumadev.github.io/projects/</link>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://phakphumadev.github.io/projects/</guid>
-      <description>IPA Quiz - Interactive Phonetic Symbol Learning Tool An interactive web-based quiz application that helps students learn International Phonetic Alphabet (IPA) symbols through audio recognition.&#xA;Features:&#xA;Audio-based learning with real IPA sound samples Multiple categories: vowels, consonants, or all symbols Interactive multiple-choice quiz with instant feedback Score tracking and progress monitoring Responsive design for desktop and mobile Try the IPA Quiz →&#xA;More projects coming soon!</description>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>IPA Quiz - Interactive Phonetic Symbol Learning Tool An interactive web-based quiz application that helps students learn International Phonetic Alphabet (IPA) symbols through audio recognition.&#xA;Features:&#xA;Audio-based learning with real IPA sound samples Multiple categories: vowels, consonants, or all symbols Interactive multiple-choice quiz with instant feedback Score tracking and progress monitoring Responsive design for desktop and mobile Tech Stack: Vanilla JavaScript, HTML5 Audio API Development: Built with assistance from Claude AI</description>
     </item>
   </channel>
 </rss>
