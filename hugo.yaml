@@ -7,7 +7,12 @@ params:
   profileMode:
     enabled: true
     title: "Hi there 👋"
-    subtitle: "I'm Phakphum Artkaew, a PhD student majoring in computational linguistics at Indiana University Bloomington. My Thai nickname is Pluem, but I sometimes go by Peter for simplicity. My research interests lie broadly in interpretability and analysis of models for NLP, psycholinguistics, machine translation and multilinguality, NLP applications, and machine learning for NLP. Specifically, I focus on cross-linguality and commonsense reasoning, with an emphasis on developing models that can understand and generate text in multiple languages. When I am not working, I enjoy playing video games, watching movies, and exploring new places. Feel free to reach out to me if you have any questions or just want to chat!"
+    subtitle: "I’m Phakphum Artkaew, a first-year Ph.D. student in Computational Linguistics at Indiana University Bloomington, where I am fortunate to work with Luke Gessler. My research focuses on improving language models for low-resource languages by integrating insights from linguistics and cognitive science, with the broader goal of narrowing the gap between modern NLP systems and human language understanding.
+
+Before starting my Ph.D., I earned my M.S. in Computer Engineering at NYU Tandon, where I completed a thesis co-advised by Ernest Davis and Chinmay Hegde. I also hold a B.S. in Computer Science from Penn State, where I conducted my senior thesis work in the Crowd-AI Lab under the supervision of Kenneth Huang.
+
+Outside of research, I enjoy video games, movies, and exploring new places. I’m always happy to connect—whether you have questions about my work or just want to chat.
+"
     imageUrl: "images/profile.jpg"
     imageWidth: 180
     imageHeight: 270
