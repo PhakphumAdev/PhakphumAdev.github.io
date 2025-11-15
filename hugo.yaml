@@ -6,15 +6,20 @@ theme: ["PaperMod"]
 params:
   profileMode:
     enabled: true
-    title: "Phakphum Artkaew"
-    subtitle: "PhD Student in Computational Linguistics"
+    title: "Hi there 👋"
+    subtitle: "I'm Phakphum Artkaew, a PhD student majoring in computational linguistics at Indiana University Bloomington. My Thai nickname is Pluem, but I sometimes go by Peter for simplicity."
     imageUrl: "images/profile.jpg"
-    imageWidth: 120
-    imageHeight: 120
+    imageWidth: 180
+    imageHeight: 270
     imageTitle: "Phakphum Artkaew"
-    buttons:
-      - name: Projects
-        url: /projects/
+    buttons: []
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
 
   homeInfoParams:
     Title: Hi there 👋
