@@ -1,153 +1,137 @@
-/* UNDERTALE-INSPIRED THEME */
+/* UNDERTALE-INSPIRED THEME - Refined Version */
 
-/* Import retro pixel font */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+/* Import retro font for accents only */
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
-/* Root variables for Undertale color palette */
+/* Root variables - softer Undertale-inspired palette */
 :root {
-    --undertale-black: #000000;
-    --undertale-white: #FFFFFF;
-    --undertale-red: #FF0000;
-    --undertale-yellow: #FFFF00;
-    --undertale-border: #FFFFFF;
-    --undertale-text-shadow: 2px 2px 0px #000000;
+    --undertale-black: #1a1a1a;
+    --undertale-dark: #0a0a0a;
+    --undertale-white: #f0f0f0;
+    --undertale-red: #e74c3c;
+    --undertale-yellow: #f1c40f;
+    --undertale-border: #ffffff;
 }
 
-/* Global font and background */
+/* Global styling - keep readable fonts */
 body {
     background-color: var(--undertale-black) !important;
     color: var(--undertale-white) !important;
-    font-family: 'Press Start 2P', 'VT323', monospace !important;
-    image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
 }
 
-/* Header styling */
+/* Header styling - subtle accent */
 .header {
-    background-color: var(--undertale-black) !important;
-    border-bottom: 4px solid var(--undertale-white) !important;
+    background-color: var(--undertale-dark) !important;
+    border-bottom: 2px solid var(--undertale-yellow) !important;
 }
 
 .nav {
-    background-color: var(--undertale-black) !important;
+    background-color: var(--undertale-dark) !important;
 }
 
 .logo a {
     color: var(--undertale-white) !important;
-    font-size: 12px !important;
-    text-shadow: 3px 3px 0px var(--undertale-red);
+    font-family: 'DotGothic16', sans-serif !important;
 }
 
 #menu a {
-    color: var(--undertale-yellow) !important;
-    font-size: 14px !important;
+    color: var(--undertale-white) !important;
+    transition: color 0.2s;
 }
 
 #menu a:hover {
-    color: var(--undertale-red) !important;
+    color: var(--undertale-yellow) !important;
 }
 
-/* Main content area with RPG dialogue box style */
+/* Main content area */
 .main {
     background-color: var(--undertale-black) !important;
 }
 
-/* Profile section as dialogue box */
+/* Profile section - clean with subtle border */
 .profile {
-    background-color: var(--undertale-black) !important;
-    border: 6px solid var(--undertale-white) !important;
-    box-shadow:
-        0 0 0 2px var(--undertale-black),
-        0 0 0 8px var(--undertale-white),
-        8px 8px 0px 8px rgba(255, 255, 255, 0.3);
-    padding: 30px !important;
+    background-color: var(--undertale-dark) !important;
+    border: 3px solid var(--undertale-yellow) !important;
+    border-radius: 8px !important;
+    padding: 40px !important;
     margin: 40px auto !important;
     max-width: 900px !important;
+    box-shadow: 0 0 30px rgba(241, 196, 15, 0.2);
 }
 
 .profile_inner {
-    background-color: var(--undertale-black) !important;
+    background-color: var(--undertale-dark) !important;
 }
 
 .profile h1 {
     color: var(--undertale-yellow) !important;
-    font-size: 20px !important;
-    text-shadow: 3px 3px 0px rgba(255, 0, 0, 0.5);
-    margin-bottom: 30px !important;
-    line-height: 1.8 !important;
+    font-family: 'DotGothic16', sans-serif !important;
+    margin-bottom: 25px !important;
 }
 
 .profile .subtitle,
 .profile span {
     color: var(--undertale-white) !important;
-    font-family: 'VT323', monospace !important;
-    font-size: 20px !important;
     line-height: 1.8 !important;
-    letter-spacing: 1px !important;
 }
 
-/* Profile image with pixelated border */
+/* Profile image - clean border */
 .profile img {
-    border: 4px solid var(--undertale-white) !important;
-    box-shadow: 4px 4px 0px var(--undertale-yellow);
-    image-rendering: pixelated;
+    border: 3px solid var(--undertale-yellow) !important;
+    border-radius: 8px;
     margin-bottom: 20px !important;
 }
 
-/* Links in profile */
+/* Links in profile - subtle yellow accent */
 .profile-mode .subtitle a,
 .profile span a {
     color: var(--undertale-yellow) !important;
-    text-decoration: none !important;
-    border-bottom: 2px solid var(--undertale-yellow);
-    padding: 2px 4px;
-    transition: all 0.1s;
+    text-decoration: underline !important;
+    text-decoration-color: var(--undertale-yellow);
+    text-underline-offset: 3px;
+    transition: all 0.2s;
 }
 
 .profile-mode .subtitle a:hover,
 .profile span a:hover {
     color: var(--undertale-red) !important;
-    border-bottom: 2px solid var(--undertale-red);
-    background-color: var(--undertale-white);
+    text-decoration-color: var(--undertale-red);
 }
 
-.profile-mode .subtitle a::after {
-    content: " ▶";
-    font-size: 0.8em;
-}
-
-/* Social icons */
+/* Social icons - clean modern style */
 .social-icons {
     margin-top: 30px !important;
 }
 
 .social-icons a {
-    background-color: var(--undertale-white) !important;
-    border: 3px solid var(--undertale-white) !important;
-    padding: 8px !important;
+    background-color: transparent !important;
+    border: 2px solid var(--undertale-yellow) !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
     margin: 0 8px !important;
-    transition: all 0.1s !important;
+    transition: all 0.3s !important;
 }
 
 .social-icons a:hover {
     background-color: var(--undertale-yellow) !important;
     border-color: var(--undertale-yellow) !important;
-    transform: translate(-2px, -2px);
-    box-shadow: 4px 4px 0px var(--undertale-red);
+    transform: translateY(-2px);
 }
 
 .social-icons a svg {
-    stroke: var(--undertale-black) !important;
+    stroke: var(--undertale-yellow) !important;
+    transition: stroke 0.3s !important;
+}
+
+.social-icons a:hover svg {
+    stroke: var(--undertale-dark) !important;
 }
 
 /* Footer */
 .footer {
-    background-color: var(--undertale-black) !important;
-    border-top: 4px solid var(--undertale-white) !important;
+    background-color: var(--undertale-dark) !important;
+    border-top: 2px solid var(--undertale-yellow) !important;
     color: var(--undertale-white) !important;
-    font-size: 10px !important;
 }
 
 .footer a {
@@ -155,13 +139,14 @@ body {
 }
 
 .footer a:hover {
-    color: var(--undertale-red) !important;
+    color: var(--undertale-white) !important;
 }
 
 /* Theme toggle button */
 #theme-toggle {
-    border: 3px solid var(--undertale-white) !important;
-    background-color: var(--undertale-black) !important;
+    border: 2px solid var(--undertale-yellow) !important;
+    background-color: transparent !important;
+    border-radius: 8px !important;
 }
 
 #theme-toggle svg {
@@ -173,49 +158,49 @@ body {
 }
 
 #theme-toggle:hover svg {
-    stroke: var(--undertale-black) !important;
+    stroke: var(--undertale-dark) !important;
 }
 
 /* Top link button */
 .top-link {
-    background-color: var(--undertale-white) !important;
-    border: 3px solid var(--undertale-white) !important;
+    background-color: var(--undertale-yellow) !important;
+    border: 2px solid var(--undertale-yellow) !important;
+    border-radius: 8px !important;
 }
 
 .top-link:hover {
-    background-color: var(--undertale-yellow) !important;
-    transform: translate(-2px, -2px);
-    box-shadow: 4px 4px 0px var(--undertale-red);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(241, 196, 15, 0.4);
 }
 
 .top-link svg {
-    fill: var(--undertale-black) !important;
+    fill: var(--undertale-dark) !important;
 }
 
-/* Remove dark mode overrides */
+/* Dark mode consistency */
 body.dark {
     background-color: var(--undertale-black) !important;
 }
 
-/* Projects page styling */
+/* Projects page styling - cleaner boxes */
 .post-entry {
-    background-color: var(--undertale-black) !important;
-    border: 4px solid var(--undertale-white) !important;
-    box-shadow: 4px 4px 0px rgba(255, 255, 255, 0.5);
+    background-color: var(--undertale-dark) !important;
+    border: 2px solid var(--undertale-yellow) !important;
+    border-radius: 8px !important;
+    transition: all 0.3s !important;
 }
 
 .post-entry:hover {
-    transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0px var(--undertale-yellow);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(241, 196, 15, 0.3);
+    border-color: var(--undertale-yellow);
 }
 
 .entry-header h2 {
     color: var(--undertale-yellow) !important;
-    font-size: 16px !important;
+    font-family: 'DotGothic16', sans-serif !important;
 }
 
 .entry-content {
     color: var(--undertale-white) !important;
-    font-family: 'VT323', monospace !important;
-    font-size: 18px !important;
 }
