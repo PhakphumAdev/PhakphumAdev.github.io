@@ -39,6 +39,10 @@ Outside of research, I enjoy video games, movies, and exploring new places. I'm 
       url: "mailto:partkaew@iu.edu"
     - name: "googlescholar"
       url: "https://scholar.google.com/citations?hl=en&user=FzH-AoAAAAAJ"
+    - name: "x"
+      url: "https://x.com/artkaewphakphum"
+    - name: "bluesky"
+      url: "https://bsky.app/profile/pzvbvb.bsky.social"
   defaultTheme: auto
 
 menu:
