@@ -51,6 +51,10 @@ menu:
       name: Projects
       url: /projects/
       weight: 10
+    - identifier: cv
+      name: CV
+      url: /cv/
+      weight: 20
 
 markup:
   goldmark:
